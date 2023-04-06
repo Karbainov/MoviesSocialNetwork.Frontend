@@ -8,6 +8,7 @@ import film5 from "./components/NewFromFriends/images/film5.jpg";
 import film6 from "./components/NewFromFriends/images/film6.jpg";
 import avt1 from"./components/NewFromFriends/images/avt1.jpg";
 import avt2 from"./components/NewFromFriends/images/avt2.jpg";
+import Alphaverse from './components/Alphaverse/Alphaverse';
 const cards:ICard[]=[
 {
   id:1,
@@ -91,6 +92,7 @@ export const Home=()=>{
  return(
    <div className='container'>
     <NewFromFriends cards={cards} />
+    <Alphaverse/>
    </div>
  )
 }
